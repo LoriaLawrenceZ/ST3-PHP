@@ -44,7 +44,7 @@ class _CalculadoraState extends State<Calculadora> {
           resultado = (numero2 != 0 ? numero1 / numero2 : null)!;
           break;
         case 'Potencia':
-          resultado = pow(numero1, numero2) as double?;
+          resultado = pow(numero1, numero2) as double;
           break;
         default:
           resultado = 0.0;
@@ -80,8 +80,8 @@ class _CalculadoraState extends State<Calculadora> {
             ),
             SizedBox(height: 16.0),
             ElevatedButton(
-              onPressed: () => _calcular('Dividir'),
-              child: Text('Dividir'),
+              onPressed: () => _calcular('Potencia'),
+              child: Text('Potência'),
             ),
             SizedBox(height: 16.0),
             Text(_resultado,
