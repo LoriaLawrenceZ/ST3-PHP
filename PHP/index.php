@@ -1,5 +1,4 @@
 <?php
-    integer num1 = 1;
 ?>
 
 <!DOCTYPE html>
