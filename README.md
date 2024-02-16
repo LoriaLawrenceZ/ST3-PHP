@@ -1,2 +1,2 @@
-# SenaiTDS_S3
-Repository for senai content
+# ST3-PHP
+SENAI 3º Termo - PHP
