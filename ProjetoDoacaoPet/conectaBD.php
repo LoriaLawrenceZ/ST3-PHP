@@ -4,9 +4,13 @@
 // usuario
 // senha
 $endereco = 'localhost';
-$banco = 'projetoDoacaoPet';
+$banco = 'projetodoacaopet';
 $usuario = 'postgres';
 $senha = 'postgres';
+//
+// Comando para criar tabela no terminal:
+// CREATE TABLE usuario(id_usuario SERIAL NOT NULL, nome VARCHAR(255) NOT NULL, data_nascimento VARCHAR(255) NOT NULL, telefone VARCHAR(255) NOT NULL, email VARCHAR(255) NOT NULL, senha VARCHAR(255) NOT NULL, CONSTRAINT pk_id_usuario PRIMARY KEY(id_usuario));
+//
 try {
     // sgbd:host;port;dbname
     // usuario
